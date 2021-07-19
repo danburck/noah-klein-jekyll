@@ -1,9 +1,12 @@
 ---
+layout: default
+title: Noah Klein
 ---
 
-Welcome to My Home Page
+<!-- Landing Page -->
+<!-- {% include landing_page.html %} -->
 
-{% assign date = '2020-04-13T10:20:00Z' %}
+<!-- Mixing -->
+{% include sections/releases.html %}
 
-- Original date - {{ date }}
-- With timeago filter - {{ date | timeago }}
+
