@@ -1,0 +1,73 @@
+/* Grid Systems */
+div.col-sm-6 {
+    padding: 0;
+}
+
+div.col-sm-12 .jumbotron{
+  padding: 6% 8%;
+}
+
+
+div.col-sm-12 img{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+div.col-sm-4 img{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+
+.ankerWorkWithMe{
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.ankerWorkWithMe div.col-sm-12 .jumbotron{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/* SIGNUP */
+#mc_embed_signup{
+  background-color: #e9ecef !important;
+}
+
+
+#mc_embed_signup input.email{
+  color: #000000 ;
+  letter-spacing: 4px!important;
+  font-size: 10px!important;
+  font-weight: 800!important;
+  text-decoration: none!important;
+  width:80%!important;
+  margin-left: 10%!important;
+  text-align: center!important;
+}
+
+
+#mc_embed_signup .button{
+  background-color: #FFA147!important;
+  border-color: #FFA147!important;
+  width:20%!important;
+  margin-left: 40%!important;
+  color: #000000!important ;
+  letter-spacing: 4px!important;
+  font-size: 10px!important;
+  font-weight: 800!important;
+  text-decoration: none!important;
+}

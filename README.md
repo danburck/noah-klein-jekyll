@@ -13,11 +13,13 @@
 [x] navigation with _data
 [x] header and footer in _includes\
 [x] collection: Releases
-[ ] Main Release Table
-[ ] components in _includes
-[ ] Sass setup
+[x] Main Release Table
+[x] Sass setup
+[x] components in _includes
+[ ] images
+[ ] Design Table of releases (e.g. Jeff Ellis)
 [ ] collection: Artist
-[ ] Plugins
+[ ] Plugins JS Setup
 [ ] Artists overview as collection
 [ ] Preloader
 [ ] Scroll to top

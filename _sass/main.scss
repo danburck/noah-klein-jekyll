@@ -1,0 +1,75 @@
+
+@import "_landing_page.scss";
+@import "_index.scss";
+
+// Components
+@import "components/_header.scss";
+@import "components/_footer.scss";
+@import "components/_card.scss";
+@import "components/_button.scss";
+
+
+// Fonts
+body {
+  height: 100vh;
+	margin: 0;
+  padding: 0;
+  border: 0;
+  position: relative;
+  background-image: linear-gradient(-225deg, rgba(30,30,30,0.1) 0%, rgba(46,46,46,0.2) 100%), url("/img/backgroundCasio.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+h2{
+  color: #000000;
+  letter-spacing: 5px;
+  font-size: 21px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+h3{
+  color: #000000;
+  letter-spacing: 5px;
+  font-size: 21px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* Project Detail page subtitle */
+h4{
+  margin-left: auto;
+  margin-right: auto;
+  color: #000000 ;
+  letter-spacing: 4px;
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+a {
+	text-decoration: none;
+	color: #000000;
+  letter-spacing: 4px;
+  font-size:9px;
+  font-weight:bold;
+  text-decoration: none;
+}
+a.anchor {
+    display: block;
+    position: relative;
+    top: -120px;
+    visibility: hidden;
+}
+p {
+    color: #000000;
+    letter-spacing: 2px;
+    font-size: 10px;
+    font-weight: 800;
+    margin:0;
+}

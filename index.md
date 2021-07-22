@@ -4,7 +4,7 @@ title: Noah Klein
 ---
 
 <!-- Landing Page -->
-<!-- {% include landing_page.html %} -->
+{% include sections/landing_page.html %}
 
 <!-- Mixing -->
 {% include sections/releases.html %}
